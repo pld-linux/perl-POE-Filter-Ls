@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	POE
-%define	pnam	Filter-Ls
+%define		pdir	POE
+%define		pnam	Filter-Ls
 Summary:	POE::Filter::Ls - translates common ls formats into a hashref
 Summary(pl):	POE::Filter::Ls - t³umaczenie popularnych formatów ls na hashref
 Name:		perl-POE-Filter-Ls
