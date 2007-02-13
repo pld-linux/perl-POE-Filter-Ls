@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Filter-Ls
 Summary:	POE::Filter::Ls - translates common ls formats into a hashref
-Summary(pl.UTF-8):   POE::Filter::Ls - tłumaczenie popularnych formatów ls na hashref
+Summary(pl.UTF-8):	POE::Filter::Ls - tłumaczenie popularnych formatów ls na hashref
 Name:		perl-POE-Filter-Ls
 Version:	0.01
 Release:	1
