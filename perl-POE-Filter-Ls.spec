@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	POE
 %define		pnam	Filter-Ls
+%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Filter::Ls - translates common ls formats into a hashref
 Summary(pl.UTF-8):	POE::Filter::Ls - tłumaczenie popularnych formatów ls na hashref
 Name:		perl-POE-Filter-Ls
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	08614fffae9133995ad3dc3317959190
+URL:		http://search.cpan.org/dist/POE-Filter-Ls/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
