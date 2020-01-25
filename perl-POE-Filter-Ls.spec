@@ -4,7 +4,6 @@
 
 %define		pdir	POE
 %define		pnam	Filter-Ls
-%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Filter::Ls - translates common ls formats into a hashref
 Summary(pl.UTF-8):	POE::Filter::Ls - tłumaczenie popularnych formatów ls na hashref
 Name:		perl-POE-Filter-Ls
