@@ -8,7 +8,7 @@ Summary:	POE::Filter::Ls - translates common ls formats into a hashref
 Summary(pl.UTF-8):	POE::Filter::Ls - tłumaczenie popularnych formatów ls na hashref
 Name:		perl-POE-Filter-Ls
 Version:	0.01
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
